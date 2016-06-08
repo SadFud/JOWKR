@@ -1,10 +1,13 @@
 @echo off
 :menu
+echo.
 echo   "-------    ----   \          /  | /          "
 echo   "   |      |    |   \        /   |/           "
 echo   "   |      |    |    \  /\  /    |\           "
 echo   "___/       ----      \/  \/     | \  Recovery"
+echo.
 echo (C) SadFud
+echo.
 echo 1.Ver nueva configuracion
 echo 2.Salir
 set/p opc=Seleccionar opcion=
