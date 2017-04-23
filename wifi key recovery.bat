@@ -19,7 +19,7 @@ netsh wlan show profile
 pause>nul
 set/p perfil=Introduce el nombre del perfil wifi=
 cls
-echo La calave se encontrara en la linea "Contenido de la clave."
+echo La clave se encontrara en la linea "Contenido de la clave."
 netsh wlan show profile %perfil% key=clear
 pause>nul
 goto menu
